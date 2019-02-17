@@ -26,6 +26,8 @@ Before starting performing this laboratory work I have studied about design patt
 ### Builder pattern
 It is creational design pattern which operate with creating the complex objects and we need to use when the process involved in creating an object is extremely complex, with lots of mandatory and optional parameters.
 
+ ![](https://github.com/gzaharia/BDC_Labs/blob/master/Laboratory_Work_N10/Screens/Task3.PNG)  
+
 In my project the builder pattern helps me to create the Dog ( child of the Animal parent class) which has from parent class the constants : typeOfAnimal, name and age. Here , I have an DogBuilder which helps me to instantiate an object of Dog type with parameters which were set by default in DogBuilder (according to the purpose of Builder pattern). 
 
 
