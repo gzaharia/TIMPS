@@ -26,7 +26,7 @@ Before starting performing this laboratory work I have studied about design patt
 ### Builder pattern
 It is creational design pattern which operate with creating the complex objects and we need to use when the process involved in creating an object is extremely complex, with lots of mandatory and optional parameters.
 
- ![](https://github.com/gzaharia/BDC_Labs/blob/master/Laboratory_Work_N10/Screens/Task3.PNG)  
+ ![](https://github.com/gzaharia/TIMPS/blob/master/Screens/Builder.PNG)  
 
 In my project the builder pattern helps me to create the Dog ( child of the Animal parent class) which has from parent class the constants : typeOfAnimal, name and age. Here , I have an DogBuilder which helps me to instantiate an object of Dog type with parameters which were set by default in DogBuilder (according to the purpose of Builder pattern). 
 
@@ -34,9 +34,13 @@ In my project the builder pattern helps me to create the Dog ( child of the Anim
 ### Abstract Factory
 Abstract Factory pattern helps us to create factory of related objects. In my case create objects inherited from Animal parent class or from Toy parent class. ( This pattern is connected with Factory).
 
+ ![](https://github.com/gzaharia/TIMPS/blob/master/Screens/AbstractFactory.PNG)
+
 
 ### Factory
 Factory pattern it is used for creating subclasses having one or several super classes(parent). For implementing this pattern I have AnimalFactory class, which create the object (subclass object , child) : Dog or Cat with default parameters which will be send to the DogBuilder in case of of Dog(connection between Factory pattern and Builder). Also, for instantiating only once and restrict accessing from another classes I have used the ** Singleton pattern**.
+
+ ![](https://github.com/gzaharia/TIMPS/blob/master/Screens/Factory_Singleton.PNG)
 
 
 ### Singleton
@@ -45,3 +49,9 @@ Singleton pattern restricts the instantiation of a class and ensures that only o
 
 ### Prototype
 Prototype pattern it is used for cloning the original object to the new and if it is needed modify the parameters. 
+
+ ![](https://github.com/gzaharia/TIMPS/blob/master/Screens/Prototype.PNG)
+ 
+ 
+ ### Conclusion:
+ In this laboratory work I have learned how to structure the code of the project for being clean and clear not only for the owner but also for the rest of people: technical and non-technical.Also, how to ensure the connection between all of the patterns.
