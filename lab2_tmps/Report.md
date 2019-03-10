@@ -56,7 +56,7 @@
  
  **Solved Problem :** Allow to change the behavior of an object in run-time.
  
- ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/decorator_image.PNG) 
+ ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/decorator_image.png) 
  
  In my case I have the **Interface**, where I defined the methods that the classes(objects) should implement. 
  
@@ -96,7 +96,7 @@
  
  **Solved Problem :** Designing the objects for using how much is possible the low amount of resources. 
  
- ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/flyweight_image.PNG)
+ ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/flyweght_image.PNG)
  
 ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/flyweight.PNG)
 
@@ -106,14 +106,20 @@
 
 ### Interaction of patterns:
 
-Bridge-------Flyweight 
+Bridge-------Flyweight
+
 Composite-----Adapter 
+
 Decorator-----all(decorates the all created objects(constructions))
 
 
 ### Output:
 
-![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/output.PNG)
+![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/output.PNG) 
+
+### Observations:
+- The Proxy and the Bridge pattern can work in application without interactior with some other patterns according to **Ganf of Four** book.
+![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/gang_of_four.PNG)
 
 
 ### Conclusion:
