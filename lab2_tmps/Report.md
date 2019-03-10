@@ -119,7 +119,7 @@ Decorator-----all(decorates the all created objects(constructions))
 
 ### Observations:
 - The Proxy and the Bridge pattern can work in application without interactior with some other patterns according to **Ganf of Four** book.
-![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/gang_of_four.PNG)
+![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/Interactions.PNG)
 
 
 ### Conclusion:
