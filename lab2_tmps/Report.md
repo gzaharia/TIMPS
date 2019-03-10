@@ -33,6 +33,17 @@
  
  My application in this laboratory work is about contructions/buildings. So, for adapter pattern I have implemented the **Override** methods, which can perform the creation , adding , removing and clear the building objects. For this, I have created an interface and I have the City parent class. The City parent class has the List of all contructions. 
  
- ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/targetInterface.PNG)
+ ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/targetIterface.PNG)
  
- ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/Adapter.PNG)
+ ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/Adapter.PNG) 
+ 
+ **Bridge** 
+ 
+ The Bridge structural pattern publish the interface to an inheritance hierarchy and decouple an abstractization so that the two can vary independently. So , the bridge pattern should be used in case of modifying or switching the properties in run-time. Also, you can through this pattern separate the abstractization and the implementation independently. This two should be decoupled because the implementation can be changed in run-time and the abstractization also.
+ 
+ Here for the Bridge pattern I have some classes. The **Color** classes are just for properties for the buildings and exactly I have created the application in this way : Schools are always of White color and the Hotels are Blue. Between this color classes I have an interface which has one method **applyColor**. 
+ In this cas I have used the Bridge pattern in composition with Flyweight pattern, where  with the Bridge pattern I have created the buildings(implements **Contruction** class) and the **Flyweight** has the information about buildings. 
+ 
+ ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/bridge.PNG) 
+ 
+ 
