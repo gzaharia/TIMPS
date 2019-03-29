@@ -41,6 +41,8 @@
  
  ### Bridge 
  
+  ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/decorator_image.png) 
+ 
  The Bridge structural pattern publish the interface to an inheritance hierarchy and decouple an abstractization so that the two can vary independently. So , the bridge pattern should be used in case of modifying or switching the properties in run-time. Also, you can through this pattern separate the abstractization and the implementation independently. This two should be decoupled because the implementation can be changed in run-time and the abstractization also. 
  
  **Solved Problem :** Decouple the abstractization and the implementation. So, ensure the modification in run-time.
@@ -55,9 +57,7 @@
  The Decorator pattern attach additional functionalities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. For better understanding this pattern I have used an image. In this image we can see how the clas Shape has the applyColor() method and interact with Color(), not every Shape. 
  
  **Solved Problem :** Allow to change the behavior of an object in run-time.
- 
- ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/decorator_image.png) 
- 
+  
  In my case I have the **Interface**, where I defined the methods that the classes(objects) should implement. 
  
  ![](https://github.com/gzaharia/TIMPS/blob/master/lab2_tmps/Screens/decorator_interface.PNG) 
