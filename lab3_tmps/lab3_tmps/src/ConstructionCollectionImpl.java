@@ -6,17 +6,17 @@ public class ConstructionCollectionImpl implements  ConstructionCollection {
 
     private List<Construction> constructionList;
 
-    public ConstructionCollectionImpl(List<Construction> constructionList) {
+    public ConstructionCollectionImpl() {
         this.constructionList = new ArrayList<>();
     }
 
     @Override
-    public void addChannel(Construction c) {
+    public void addConstruction(Construction c) {
         constructionList.add(c);
     }
 
     @Override
-    public void removeChannel(Construction c) {
+    public void removeConstruction(Construction c) {
         constructionList.remove(c);
     }
 

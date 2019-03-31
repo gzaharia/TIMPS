@@ -1,8 +1,8 @@
 public interface ConstructionCollection {
 
-    public void addChannel(Construction c);
+    public void addConstruction(Construction c);
 
-    public void removeChannel(Construction c);
+    public void removeConstruction(Construction c);
 
     public ConstructionIterator iterator(ConstructionType constructionType);
 

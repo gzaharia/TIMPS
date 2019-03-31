@@ -15,4 +15,10 @@ public abstract class Construction {
     }
 
     public abstract void build();
+
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

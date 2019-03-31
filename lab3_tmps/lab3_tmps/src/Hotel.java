@@ -8,4 +8,9 @@ public class Hotel extends Construction {
     public void build() {
         strategy.buildConstruction();
     }
+
+    @Override
+    public String toString() {
+        return "Hotel of type " + this.getConstructionType();
+    }
 }
