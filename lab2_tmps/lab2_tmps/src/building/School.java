@@ -1,7 +1,7 @@
 package building;
 
 import building.Color.Color;
-
+//decorator pattern
 public class School extends Building {
     public School(Color color, BuildingType buildingType) {
         super(color, buildingType);
@@ -9,7 +9,7 @@ public class School extends Building {
 
     @Override
     public void build() {
-        System.out.println("------- School -------");
+        System.out.println("------------------ School ------------------");
         System.out.println("Build a " + buildingType);
         System.out.println("Color the school in: ");
         color.applyColor();

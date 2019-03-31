@@ -20,7 +20,7 @@ public class BuildingFactory {
                     building = new Hotel(new BlueColor(), BuildingType.HOTEL);
                     break;
                 case SCHOOL:
-                    building = new School(new WhiteColor(), BuildingType.HOTEL);
+                    building = new School(new WhiteColor(), BuildingType.SCHOOL);
                     break;
             }
             buildings.put(buildingType,building);
