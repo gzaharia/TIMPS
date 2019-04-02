@@ -41,3 +41,66 @@ In this pattern can be violated the **Liskov Substitute Principle**, because the
 
 In my case I have performed the Template method for having an skeleton for building the houses. I have in this class the **final** method which can not be override from subclasses and also contains the methods that will be executed in the specific order. The order means you can't build a house starting from windows or walls.
 
+![]() 
+
+![]()
+
+![]()
+
+### Strategy Pattern
+
+Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called strategies.
+
+So , we have the main class which we can call that is **context** and that context will have the reference to the strategies which client will call for creating the objects. The context is not resposible for choosing the algorithm this does not know much about strategies, this just trigger the encapsulated strategy.
+
+Related to my case , I have the strategies for creating some types of buildings. Buildings have no idea how they will be created, I just called the strategy for building(encapsulate the methods), I kept only reference to the strategies. The **Strategy Pattern** also follow the order of calling the methods from **BuildingContructionTemplateStrategy**.
+
+**Solved Problem :** Many related classes differ only in their behavior. Strategy provide a class with one of many behaviors.
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+### Visitor
+
+Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate. We can say that this pattern is the same as Strategy/Template method Patterns, using another explanation we can say that the Visitor is a sub-part of the strategy pattern. The strategy pattern is more like 1:many relation, but Visitor is many:many.
+
+- Open/Closed Principle.
+- Single Responsability Principle.
+
+In my code the implementation of visitor pattern is the same as the **Template Method Pattern** , because I use the sam methods for all objects , for those that exist and for those that will be created. One question can be : **Why you don't use polymorphism** , here I can't use overloading , because I will use not only one method and different parameters , but all methods. The new object that will be created will knows what strategy and methods to apply for creating the object. Also, we can say that the visitor pattern used the **Double Dispatch**
+
+**Solved Problem:** The Visitor pattern suggests that you place the new behavior into a separate class called visitor, instead of trying to integrate it into existing classes.
+
+![]()
+
+![]()
+
+![]()
+
+### Iterator
+
+Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
+
+- Iterator pattern is useful when you want to provide a standard way to iterate over a collection and hide the implementation logic from client program.
+- The logic for iteration is embedded in the collection itself and it helps client program to iterate over them easily.
+
+Let's analyze the problem that solved the Iterator Pattern. The collections can be of several structure, but no matter what type of structure is used , the main approach is to achieve the all elements from collection. So , the Iterator Pattern finds the solution and propose to :
+
+**Solved Problem:** Extract the traversal behavior of collection into a separte object.
+
+I have 2 interfaces : **ConstructionsCollection** and **ConstructionIterator**. and one class **ConstructionCollectionImpl**.
+
+- **ConstructionsCollection -** contains available methods for creating the constructions.
+- **ConstructionIterator -** contains one boolean method **hasNext()**, which verify if the list has the next element and the **next()** method, which display the all objects of the same type.
+
+
+
