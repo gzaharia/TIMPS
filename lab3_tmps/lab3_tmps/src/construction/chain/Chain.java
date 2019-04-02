@@ -1,3 +1,7 @@
+package construction.chain;
+
+import construction.Construction;
+
 public interface Chain {
 
 

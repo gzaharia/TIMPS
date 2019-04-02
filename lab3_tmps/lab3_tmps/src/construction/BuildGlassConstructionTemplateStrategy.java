@@ -1,3 +1,5 @@
+package construction;
+
 public class BuildGlassConstructionTemplateStrategy extends BuildConstructionTemplateStrategy {
 
     @Override

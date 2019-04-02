@@ -1,3 +1,5 @@
+package construction;
+
 public class BuildWoodenConstructionTemplateStrategy extends BuildConstructionTemplateStrategy {
 
     @Override

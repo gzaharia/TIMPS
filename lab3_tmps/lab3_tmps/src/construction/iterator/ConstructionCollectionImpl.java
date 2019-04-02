@@ -1,6 +1,11 @@
+package construction.iterator;
+
+import construction.Construction;
+import construction.ConstructionType;
+
 import java.util.ArrayList;
 import java.util.List;
-
+//iterator
 public class ConstructionCollectionImpl implements  ConstructionCollection {
 
 

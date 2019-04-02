@@ -1,3 +1,7 @@
+package construction.chain;
+
+import construction.Construction;
+
 public class DecorateChain implements Chain {
 
 
@@ -10,7 +14,7 @@ public class DecorateChain implements Chain {
 
     @Override
     public void performAction(Construction construction) {
-        System.out.println("DecorateChain will decorate the construction: " + construction.getConstructionType());
+        System.out.println("construction.chain.DecorateChain will decorate the construction: " + construction.getConstructionType());
         this.chain.performAction(construction);
     }
 }

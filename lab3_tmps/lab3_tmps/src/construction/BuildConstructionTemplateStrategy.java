@@ -1,3 +1,5 @@
+package construction;
+//strategy, template, visitor, visitor can be considered as sub-part of strategy
 public abstract class BuildConstructionTemplateStrategy {
 
     public final void buildConstruction(){
@@ -5,7 +7,7 @@ public abstract class BuildConstructionTemplateStrategy {
         buildPillars();
         buildWalls();
         buildWindows();
-        System.out.println("Construction is built.");
+        System.out.println("construction.Construction is built.");
     }
 
     private void buildWindows() {

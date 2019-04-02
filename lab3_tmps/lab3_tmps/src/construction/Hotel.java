@@ -1,3 +1,5 @@
+package construction;
+
 public class Hotel extends Construction {
 
     public Hotel(ConstructionType constructionType, BuildConstructionTemplateStrategy strategy) {
@@ -11,6 +13,6 @@ public class Hotel extends Construction {
 
     @Override
     public String toString() {
-        return "Hotel of type " + this.getConstructionType();
+        return "construction.Hotel of type " + this.getConstructionType();
     }
 }

@@ -1,3 +1,7 @@
+package construction.chain;
+//chain
+import construction.Construction;
+
 public class BuildChain implements Chain {
 
     private Chain chain;
@@ -9,7 +13,7 @@ public class BuildChain implements Chain {
 
     @Override
     public void performAction(Construction construction) {
-        System.out.println("BuildChain will build the construction: " + construction.getConstructionType());
+        System.out.println("construction.chain.BuildChain will build the construction: " + construction.getConstructionType());
         construction.build();
         this.chain.performAction(construction);
     }

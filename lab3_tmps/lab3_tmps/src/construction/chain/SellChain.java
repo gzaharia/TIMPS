@@ -1,3 +1,7 @@
+package construction.chain;
+
+import construction.Construction;
+
 public class SellChain implements Chain {
 
 
@@ -10,6 +14,6 @@ public class SellChain implements Chain {
 
     @Override
     public void performAction(Construction construction) {
-        System.out.println("SellChain will sell the construction: " + construction.getConstructionType());
+        System.out.println("construction.chain.SellChain will sell the construction: " + construction.getConstructionType());
     }
 }
