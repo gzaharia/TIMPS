@@ -150,4 +150,4 @@ In my case I had to perform some actions for Constructions. So, I have an order 
 
 ### Conclusion:
 
-In this laboratory work I obtained skills operating with behavioral design patterns , which are concerned with algorithms and the assignment of responsibilities between objects. Also, this type of patterns promote to reduce the sender and receiver coupling and enable better support by others and provide changes in the future.
+In this laboratory work I obtained skills operating with behavioral design patterns , which are concerned with algorithms and the assignment of responsibilities between objects. Also, this type of patterns promote to reduce the sender and receiver coupling and enable better support by others and perform changes in the future.
