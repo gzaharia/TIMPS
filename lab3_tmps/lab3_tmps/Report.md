@@ -102,5 +102,42 @@ I have 2 interfaces : **ConstructionsCollection** and **ConstructionIterator**. 
 - **ConstructionsCollection -** contains available methods for creating the constructions.
 - **ConstructionIterator -** contains one boolean method **hasNext()**, which verify if the list has the next element and the **next()** method, which display the all objects of the same type.
 
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+
+### Chain of Resposability
+
+Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+
+Like many other behavioral design patterns, the Chain of Responsibility relies on transforming particular behaviors into stand-alone objects called handlers. In our case, each check should be extracted to its own class with a single method that performs the check. The request, along with its data, is passed to this method as an argument.
+
+- You can control the order of requests.
+- Single Responsability Principle, promote the loose coupling.
+- Open/Closed Principle, you can introduce new handlers.
+
+**Solved Problem:** Contains an chain of handlers which decide who of them will handler the request.
+
+In my case I had to perform some actions for Constructions. So, I have an order of executing the actions on the object: **BuildChain**, **DecorateChain**,**SellChain** and one interface that keep the 2 methods for setting the next chain and for performing the aactions,
+**setNextChain()**, **performAction()**.
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+
 
 
