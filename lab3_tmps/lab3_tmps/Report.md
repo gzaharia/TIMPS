@@ -39,5 +39,5 @@ In this pattern can be violated the **Liskov Substitute Principle**, because the
 **Solved problem :** Avoid the duplication of the same in different subclasses, able to dynamically add some objects.
 
 
-In my case I have performed the Template method for having an skeleton for building the houses. I have in this class the **final** method which can not be override from subclasses and also contains the methods that will be executed in the specific order. The order means you can't build a house starting from windowsses or walls.
+In my case I have performed the Template method for having an skeleton for building the houses. I have in this class the **final** method which can not be override from subclasses and also contains the methods that will be executed in the specific order. The order means you can't build a house starting from windows or walls.
 
