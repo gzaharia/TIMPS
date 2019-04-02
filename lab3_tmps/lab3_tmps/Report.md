@@ -41,11 +41,11 @@ In this pattern can be violated the **Liskov Substitute Principle**, because the
 
 In my case I have performed the Template method for having an skeleton for building the houses. I have in this class the **final** method which can not be override from subclasses and also contains the methods that will be executed in the specific order. The order means you can't build a house starting from windows or walls.
 
-![]() 
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/template_structure.PNG) 
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/template_real_example.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/template.PNG)
 
 ### Strategy Pattern
 
@@ -57,17 +57,17 @@ Related to my case , I have the strategies for creating some types of buildings.
 
 **Solved Problem :** Many related classes differ only in their behavior. Strategy provide a class with one of many behaviors.
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/strategy_structure.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/strategy_real_example.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/strategy_1.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/strategy_2.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/strategy_injection.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/apply_strategy.PNG)
 
 ### Visitor
 
@@ -80,11 +80,11 @@ In my code the implementation of visitor pattern is the same as the **Template M
 
 **Solved Problem:** The Visitor pattern suggests that you place the new behavior into a separate class called visitor, instead of trying to integrate it into existing classes.
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/visitor_structure.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/visitor_real_example.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/visitor.PNG)
 
 ### Iterator
 
@@ -102,13 +102,15 @@ I have 2 interfaces : **ConstructionsCollection** and **ConstructionIterator**. 
 - **ConstructionsCollection -** contains available methods for creating the constructions.
 - **ConstructionIterator -** contains one boolean method **hasNext()**, which verify if the list has the next element and the **next()** method, which display the all objects of the same type.
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/Iterator_structure.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/Iterator_real_example.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/iterator_1_interface.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/iterator_2_interface.PNG)
+
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/hasNext_next.PNG)
 
 
 ### Chain of Resposability
@@ -126,18 +128,26 @@ Like many other behavioral design patterns, the Chain of Responsibility relies o
 In my case I had to perform some actions for Constructions. So, I have an order of executing the actions on the object: **BuildChain**, **DecorateChain**,**SellChain** and one interface that keep the 2 methods for setting the next chain and for performing the aactions,
 **setNextChain()**, **performAction()**.
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_structure.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_schema.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_real_example.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_build.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_decorate.PNG)
 
-![]()
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_sell.PNG)
+
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/chain_interface.PNG)
 
 
+### Output:
+
+![](https://github.com/gzaharia/TIMPS/blob/master/lab3_tmps/lab3_tmps/Screens/output.PNG)
 
 
+### Conclusion:
+
+In this laboratory work I obtained skills operating with behavioral design patterns , which are concerned with algorithms and the assignment of responsibilities between objects. Also, this type of patterns promote to reduce the sender and receiver coupling and enable better support by others and provide changes in the future.
